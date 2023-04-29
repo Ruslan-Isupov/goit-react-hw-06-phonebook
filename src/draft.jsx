@@ -1,0 +1,4 @@
+const appState = {
+  contacts: [],
+  filter: ""
+}
