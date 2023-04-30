@@ -22,7 +22,7 @@ export const ContactForm = () => {
   const contacts = useSelector(getContacts);
   
   const checkSameName = name => {
-    return contacts.find(contact => contact.name === name);
+    return contacts?.find(contact => contact.name === name);
   };
   
   const addContacts = e => {
